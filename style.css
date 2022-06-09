@@ -1,0 +1,52 @@
+
+#Hello{
+    background:  url(./assets/Header-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#about{
+    background-image: url(./assets/illustration\ about\ me\ desktop.svg),
+     url(./assets/illustration-about-me-2-desktop.svg);
+    background-position: 
+    top right,
+    left;
+    background-repeat: no-repeat;
+}
+
+#about .card{
+    background-color: #EBEFF4;
+}
+#contact{
+    background: url(./assets/Contact-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+@media screen and (max-width:768px){
+    #Hello{
+        background: url(./assets/header-illsutration-mobile.svg);
+        background-position: ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+    #about{
+        background-image: url(./assets/about-mobile-1.svg),
+         url(./assets/about-mobile-2.svg);
+        background-position: 
+        top right,
+        top left;
+        background-repeat: no-repeat;
+    }
+    #{
+        background-image: url(./assets/about-mobile-1.svg),
+         url(./assets/about-mobile-2.svg);
+        background-position: 
+        top right,
+        top left;
+        background-repeat: no-repeat;
+    }
+} 
